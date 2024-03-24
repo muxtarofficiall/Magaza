@@ -1,0 +1,597 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+/*i {
+    color: rgb(209, 208, 208);
+    font-size: 26px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}*/
+.container {
+    width: 100%;
+    height: 10vh
+}
+
+.icons {
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    font-size: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.background {
+    width: 100%;
+    height: 55vh;
+
+    background-image: url(yenidi.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+
+}
+
+.div1 h1 {
+    color: aliceblue;
+    padding: 35px;
+    font-size: 30px;
+
+}
+
+.div2 {
+    color: rgb(201, 45, 45);
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.button {
+    padding: 30px
+}
+
+button {
+
+   
+  
+    border: none;
+   color: rgb(15, 22, 27);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 20%;
+    transition: 1s ease;
+    object-fit: contain;
+
+}
+button:hover{
+    transform: scale(1.05);
+   background-color: black;
+   color: aliceblue;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 7fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div4 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div5 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div6 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div7 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.div8 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div9 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.div4 {
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 10px;
+
+}
+
+.div4 hr {
+    color: black;
+    display: block;
+}
+
+#div4 {
+    margin-left: 230px;
+    cursor: pointer;
+}
+
+.div4 p {
+    color: black;
+
+    font-size: 18px;
+    margin-left: 13px;
+    padding: 10px;
+}
+
+#set {
+    margin-left: -8px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 1s ease;
+    object-fit: contain;
+
+
+
+}
+
+#set:hover {
+    transform: scale(1.05);
+  
+}
+
+
+.div5 a {
+    font-size: 15px;
+}
+
+#set1 {
+    margin-left: 230px;
+    cursor: pointer;
+}
+
+.div5 {
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 10px;
+
+}
+
+.div7 {
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 10px;
+
+}
+
+#set3 {
+    margin-left: 230px;
+    cursor: pointer;
+}
+
+.imgs {
+    padding: 10px;
+    transition: 1s ease;
+    object-fit: contain;
+}
+
+.imgs img {
+    border: 2px;
+    width: 70px;
+    height: 40px;
+    transition: 1s ease;
+    object-fit: contain;
+}
+
+.imgs img:hover {
+    transform: scale(1.05);
+}
+
+.imgss img {
+    border-radius: 10%;
+    border: none;
+}
+
+#set5 {
+    margin-left: 230px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.card img {
+
+    transition: 1s ease;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+   
+}
+
+.container {
+    padding: 10px
+}
+
+.card {
+    width: 190px;
+    height: 160px;
+    padding: 10px;
+
+}
+
+.div6 {
+    display: flex;
+}
+
+.div6 p {
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.div6 p:hover {
+    color: red;
+}
+
+.div6 h4 {
+    cursor: pointer;
+}
+
+.div6 h4:hover {
+    color: red;
+}
+
+#cards {
+    padding: 5px;
+    margin-left: 40px;
+}
+
+.div6 i {}
+
+.div8 {
+    display: flex;
+}
+
+.div8 p {
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.div8 p:hover {
+    color: red;
+}
+
+.div9 {
+    display: flex;
+}
+
+.div9 p {
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.div9 p:hover {
+    color: red;
+}
+
+.div6 h4 b {
+    text-align: center;
+}
+
+.setill {
+    width: 100%;
+    height: 10vh;
+
+}
+
+.setil {
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+    font-size: 20px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#prev1 {
+    margin-right: 1400px;
+}
+
+.setil1 a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.setil1 a.active {
+    background-color: #9ba39b;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.setil1 a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.setil1 {
+
+    display: flex;
+    margin-left: 600px;
+}
+
+.parent1 {
+    display: grid;
+    grid-template-columns: 6fr repeat(2, 3fr) 0 3fr;
+    grid-template-rows: 1fr repeat(4, 0fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    color: aliceblue;
+}
+
+.div1 {
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.div2 {
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.div3 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div4 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div10 {
+    height: auto;
+    background-color: rgb(24, 22, 20);
+}
+
+.meqafoot {
+    padding: 130px;
+
+}
+
+#bron {
+    padding: 20px;
+    margin-left: 15px;
+}
+
+#led {
+    padding: 20px;
+    margin-left: 15px;
+}
+
+#bron1 {
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.div11 {
+
+    height: auto;
+    background-color: rgb(24, 22, 20);
+}
+
+.div11 p {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.div11 p:hover {
+    color: red;
+}
+
+.meta {
+    padding: 100px;
+}
+
+#veno {
+    gap: 5px;
+    padding: 10px;
+}
+
+.div12 {
+    height: auto;
+    background-color: rgb(24, 22, 20);
+}
+
+.div12 p {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.div12 p:hover {
+    color: red
+}
+
+.meta {
+    padding: 100px;
+}
+
+#veno {
+    gap: 5px;
+    padding: 10px;
+}
+
+.div14 {
+    height: auto;
+    background-color: rgb(24, 22, 20);
+}
+
+.div14 p {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.div14 p:hover {
+    color: red;
+}
+
+.meta {
+    padding: 100px;
+}
+
+#veno {
+    gap: 5px;
+    padding: 10px;
+}
+
+.need {
+    width: 100%;
+    height: 10vh;
+
+    background-color: rgb(24, 22, 20);
+}
+
+.need1 {
+    padding: 18px;
+    margin-left: 30px;
+    color: aliceblue;
+}
+
+.need2 {
+    display: flex;
+    justify-content: end;
+    gap: 9px;
+}
+
+#sendhr {
+    border-top: 1px solid rgb(29, 29, 29);
+}
+
+.need2 i {
+    cursor: pointer;
+}
+.need2 i :hover{
+  
+}
+#formss{
+    background-color: black;
+    color: aliceblue;
+  font-size: medium;
+  cursor: pointer;
+  transition: 1s ease;
+}
+#formss:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.05);
+}
+
+
+/*.parent1 {
+    display: grid;
+    grid-template-columns: 6fr repeat(2, 3fr) 0 3fr;
+    grid-template-rows: 1fr repeat(4, 0fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div10 { grid-area: 1 / 4 / 2 / 5; }
+    .div11 { grid-area: 1 / 3 / 2 / 4; }
+    .div12 { grid-area: 1 / 2 / 2 / 3; }
+    .div13 { grid-area: 1 / 1 / 2 / 2; }
+
+   
+    .div11{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 50vh; 
+        
+    }
+    .div11 p{
+        padding: 3px; 
+    }
+    .div12{
+        background-color: rgba(0, 0, 0, 0.3);
+        height: 50vh; 
+       
+    }
+    .div12 p{
+        padding: 3px;
+    }
+  .meta{
+    padding:60px;
+  } 
+ #veno{
+   gap: 5px;
+   padding:10px;
+ }
+  
+    .div13{
+        background-color: rgba(0, 0, 0, 0.3);
+     height: 50vh;
+    }
+
+.meqafoot{
+    padding:60px;
+   
+}
+
+#bron{
+padding: 20px;
+margin-left: 15px;
+}
+#led{
+padding: 20px;
+margin-left: 15px;
+}
+#bron1{
+    padding: 20px;
+    margin-left: 15px;   
+}
+/*button:hover{
+    transition-duration: 0.4s;
+    background-color: antiquewhite;
+    color: black;
+}*/
+/*.img{
+   
+    background-image: url(foto.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  
+}*/
+
+/*.background img{
+    width: 100%;
+    height: 50vh;
+}*/
